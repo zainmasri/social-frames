@@ -1,0 +1,14 @@
+{
+  "name": "social-frames",
+  "version": "1.0.0",
+  "description": "Social Frames (FRAMES AI) — Video & Social Post Intelligence Web Application",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8787 --bind 0.0.0.0",
+    "serve:node": "npx --yes serve -l 8787 .",
+    "build": "echo 'Static bundle ready in current directory (zero-build architecture).' && ls -lh index.html app.js pages-templates.js posts-data.js fonts.css gar-core.css styles.css"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
